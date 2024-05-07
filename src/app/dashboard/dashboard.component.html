@@ -1,0 +1,28 @@
+
+<mat-toolbar class="mat-elevation-z3">
+    <!-- <span> <mat-icon> dashboard </mat-icon> </span> -->
+    <!-- <img width="50" height="50" src="/assets/bird_2.jpg"/> -->
+    <!-- <img src="/assets/farmin.jpg" alt="Logo" height="64" width="64"> -->
+    <img src="/assets/A logo.jpeg" alt="Logo" class="logo">
+
+    <div class="spacer"></div>
+    <a mat-raised-button class="button-spacing" (click)="home()" >Home</a>
+    <a mat-raised-button class="button-spacing" (click)="blog()" >Blog</a>
+    <a mat-raised-button class="button-spacing" (click)="LogOut()">About</a>
+    <a mat-raised-button class="button-spacing" (click)="create()">create</a>
+
+</mat-toolbar>
+
+<mat-sidenav-container >
+    <!-- <mat-sidenav mode="side" opened [style.width]="'250px'">
+    
+        <app-sidenav> </app-sidenav>
+ 
+    </mat-sidenav> -->
+
+    <mat-sidenav-content class="content">
+
+        <router-outlet></router-outlet>
+        
+    </mat-sidenav-content>
+</mat-sidenav-container>

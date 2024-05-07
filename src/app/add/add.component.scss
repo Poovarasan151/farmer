@@ -1,0 +1,55 @@
+/* Style for the button */
+.custom-file-upload-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Button border radius */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-right: 30px;
+  }
+  
+  /* Optional hover effect */
+  .custom-file-upload-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+
+
+
+
+  .file-upload-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-file-upload {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .upload-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Optional: Hover effect for the custom file upload button */
+  .custom-file-upload:hover {
+    background-color: #45a049;
+  }
+  
+  .upload-button:hover {
+    background-color: #0056b3;
+  }

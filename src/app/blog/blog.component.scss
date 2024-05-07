@@ -1,0 +1,20 @@
+.example-card {
+    max-width: 800px;
+    margin-left: 500px;
+  }
+
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; /* Adjust this value to set the desired gap between cards */
+  }
+  
+  .example-card {
+    flex: 1 1 calc(33.33% - 20px); /* Adjust this value according to the number of cards per row and the gap */
+  }
